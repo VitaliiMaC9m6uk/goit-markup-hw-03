@@ -209,6 +209,11 @@ address{
     border-color: var(--button-bg-port);
     font-family: Roboto,sans-serif;
     cursor: pointer;
+
+}
+.btn-port{
+    padding-top: 94px;
+    padding-bottom: 50px;
 }
 .button-port:hover{
     color: var(--white-color);
@@ -224,12 +229,21 @@ address{
     color: var(--title-color);
     font-size: 18px;
     line-height: 2;
+
+    margin-top: 20px;
+    margin-bottom: 4px;
     
 }
 .text-collection{
     color: var(--text-color);
     font-size: 16px;
     line-height: 1.9;
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.list-collection{
+    padding-bottom: 94px;
 }
 .decoration-link{
     text-decoration: none;
