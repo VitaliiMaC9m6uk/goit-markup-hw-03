@@ -9,8 +9,7 @@
     --button-bg-port:#F5F4FA;
 }
 /* Container */
-.container{
-    outline: 2px solid red;
+.container{    
     margin-left:auto;
     margin-right:auto;
     width:1200px;
