@@ -106,7 +106,14 @@ address{
     display: flex;
     justify-content: space-between;
 }
+.one-of-team{
+    background-color: var(--white-color);
+    border-radius: 0px 0px 4px 4px;
 
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),    
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14),    
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
 
 /* Головний текст */
 .titel-service{
@@ -205,6 +212,10 @@ address{
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    text-align: center;
+}
+.team .text{
+    padding-bottom: 30px;
 }
 .title-features{
     margin-top: 0;
@@ -234,6 +245,9 @@ address{
     display: inline-block;
     padding-bottom: 20px;
     padding-top: 60px;
+}
+.list.footer{
+    padding-bottom: 60px;
 }
 /* portfolio */
 .button-port{
@@ -274,7 +288,7 @@ address{
 
     margin-top: 20px;
     margin-bottom: 4px;
-    
+    padding-left: 24px;
 }
 .text-collection{
     color: var(--text-color);
@@ -283,6 +297,7 @@ address{
 
     margin-top: 0;
     margin-bottom: 0;
+    padding-left: 24px;
 }
 .list-collection{
     padding-bottom: 94px;
@@ -294,3 +309,8 @@ address{
 .decoration-link{
     text-decoration: none;
     }
+.link--collection{
+    border: 1px solid #EEEEEE;
+    background: #FFFFFF;
+    
+}
