@@ -111,7 +111,7 @@ address{
 
 /* Головний текст */
 .titel-service{
-    color: var(--title-color);
+    color: var(--white-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -125,7 +125,10 @@ address{
     flex-direction: column;
 
     padding-top:200px;
-    padding-bottom:200px;
+    padding-bottom:200px;    
+}
+.bg-service{
+    background-color: var(--bg-color);
 }
 .button{
     min-width: 216px;
