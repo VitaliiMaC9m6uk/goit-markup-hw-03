@@ -65,12 +65,17 @@ address{
     letter-spacing: 0.03em;
     
     padding-top:24px;
+    padding-right:93px;
 }
 .logo-blue{
     color:var(--logo-blue-color) ;
 }
 .logo-black{
     color:var(--logo-black-color) ;
+}
+.link-porf{
+    padding-left:50px;
+    padding-right:50px;
 }
 .mail-link,
 .tel-link,
@@ -85,12 +90,22 @@ address{
 }    
 .tel-link{
     color: var(--text-color);    
+
+    padding-left:50px;
 }
 .link:focus{
     color: var(--logo-blue-color);
 }
 .link:hover{
     color: var(--logo-blue-color);
+}
+.head-list{
+    display: flex;
+    align-items: center;    
+}
+.container-head{
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -105,6 +120,13 @@ address{
     margin-top:0;
     margin-bottom: 30px;
 }
+.block-service{
+    display: flex;
+    flex-direction: column;
+
+    padding-top:200px;
+    padding-bottom:200px;
+}
 .button{
     min-width: 216px;
     height: 50px;
@@ -113,9 +135,7 @@ address{
     border-radius: 4px;
     cursor: pointer;
     display: inline-block;
-    margin:0 auto;
-
-    margin-bottom: 200px;
+    margin:0 auto;    
 }
 .list .title{
     color: var(--title-color);
@@ -129,6 +149,9 @@ address{
 .features{
     padding-top: 94px;
     padding-bottom: 94px;
+
+    display: flex;
+    justify-content: space-evenly;
 }
 .list .text{
     line-height: 1.71;
@@ -136,6 +159,8 @@ address{
 
     margin-top: 0;
     margin-bottom: 0;
+
+    width: 270px;
 }
 .work .title,
 .team .title{
@@ -148,6 +173,17 @@ address{
     margin-top: 0;
     margin-bottom: 0;
     padding-bottom: 50px;
+}
+.work .list{
+    display: flex;
+    justify-content: space-between;
+}
+.team .list{
+    display: flex;
+    justify-content:space-between ;
+}
+.team{
+    background-color:#F5F4FA ;
 }
 .work,
 .team{
@@ -210,10 +246,14 @@ address{
     font-family: Roboto,sans-serif;
     cursor: pointer;
 
+    margin-left:8px;
 }
 .btn-port{
     padding-top: 94px;
     padding-bottom: 50px;
+
+    display: flex;
+    justify-content: center;
 }
 .button-port:hover{
     color: var(--white-color);
@@ -244,7 +284,11 @@ address{
 }
 .list-collection{
     padding-bottom: 94px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .decoration-link{
     text-decoration: none;
-}
+    }
