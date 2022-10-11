@@ -107,6 +107,7 @@ address{
     justify-content: space-between;
 
     background-color: var(--white-color);
+    border-bottom: 1px solid #ECECEC;
 }
 
 
@@ -236,19 +237,19 @@ address{
     color: var(--white-color);
 }
 .bg-footer{
-    background-color:var(--bg-color);
-    position:relative;      
+    background-color:var(--bg-color);          
 }
 .adress-footer{
     color: var(--white-color);
+    line-height: 1.71;
 }
 .mail-footer,
 .tel-footer{
-    color:var(--footer-mail) ;    
+    color:var(--footer-mail) ;  
+    line-height: 1.71;
 }
 .mail-footer{
-    display: inline-block;
-    
+    display: inline-block;    
 }
 .logo-footer{
     display: inline-block;
