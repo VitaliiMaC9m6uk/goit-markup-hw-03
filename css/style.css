@@ -136,7 +136,7 @@ address{
     height: 50px;
     background-color: var(--logo-blue-color);
     color: var(--white-color);
-    border-color: var(--logo-blue-color);
+    border-color:transparent;
     border-radius: 4px;
     cursor: pointer;
     display: inline-block;
