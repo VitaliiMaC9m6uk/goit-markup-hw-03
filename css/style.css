@@ -78,17 +78,14 @@ address{
 .mail-link,
 .tel-link,
 .site-nav .link {
-    color: var(--logo-blue-color);
+    color: var(--text-color);
     font-weight: 500;   
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
 .site-nav .link {
     color: var(--title-color);    
-}    
-.tel-link{
-    color: var(--text-color);
-}
+}  
 .head-list .mail:not(:last-child){
     margin-right: 50px;
 }
@@ -106,8 +103,14 @@ address{
     display: flex;
     justify-content: space-between;
 
+    
+}
+.border-head{
     background-color: var(--white-color);
     border-bottom: 1px solid #ECECEC;
+
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 
@@ -126,11 +129,13 @@ address{
     display: flex;
     flex-direction: column;
 
-    padding-top:200px;
-    padding-bottom:200px;    
+    
 }
 .bg-service{
     background-color: var(--bg-color);
+
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .button{
     min-width: 216px;
@@ -155,13 +160,13 @@ address{
     letter-spacing: 0.03em;
 
     margin-top: 0;
-    margin-bottom: 0;    
-    padding-bottom: 10px;
+    margin-bottom: 10px;       
 }
-.features{
+.title-features {
     padding-top: 94px;
     padding-bottom: 94px;
-
+}
+.features{
     display: flex;
     justify-content: space-evenly;
 }
@@ -183,8 +188,7 @@ address{
     letter-spacing: 0.03em;
 
     margin-top: 0;
-    margin-bottom: 0;
-    padding-bottom: 50px;
+    margin-bottom: 50px;    
 }
 .work .list{
     display: flex;
@@ -200,15 +204,14 @@ address{
 .work,
 .team{
     padding-bottom: 94px;
+    padding-top: 94px;
 }
 .title-name{
     color: var(--title-color);
     font-weight: 500; 
     
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;    
 }
 .team .text,
 .title-name{    
@@ -218,7 +221,7 @@ address{
     text-align: center;
 }
 .team .text{
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 .one-of-team {
     background-color: var(--white-color);
@@ -228,16 +231,16 @@ address{
         0px 1px 1px 0px rgba(0, 0, 0, 0.14),
         0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
-.title-features{
-    margin-top: 0;
-    margin-bottom: 0;
-}
+
 /* Подвал */
 .logo-white{
     color: var(--white-color);
 }
 .bg-footer{
-    background-color:var(--bg-color);          
+    background-color:var(--bg-color); 
+    
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .adress-footer{
     color: var(--white-color);
@@ -254,10 +257,6 @@ address{
 .logo-footer{
     display: inline-block;
     margin-bottom: 20px;   
-}
-.list.footer{
-    padding-top: 60px;
-    padding-bottom: 60px;
 }
 .bg-footer .mail:not(:last-child){
     margin-bottom: 9px;
@@ -278,8 +277,7 @@ address{
 .list-btn:not(:last-child){
     margin-right:8px;
 }
-.btn-port{
-    padding-top: 94px;
+.btn-port{  
     padding-bottom: 50px;
 
     display: flex;
@@ -312,20 +310,29 @@ address{
     padding-left: 24px;
 }
 .list-collection{
-    padding-bottom: 94px;
-
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-wrap: wrap;  
+    gap:30px;
 }
 
 .decoration-link{
     text-decoration: none;
     }
-.link-collection{
-    border: 1px solid #EEEEEE;
-    background: #FFFFFF;    
-}
-.link-collection:not(:nth-last-child(-n+3)){
+/* .link-collection:not(:nth-last-child(-n+3)){
     margin-bottom: 30px;
+}
+.link-collection:not(:nth-child(3n + 0)){
+    margin-right: 30px;
+} */
+.border-col{    
+    border: 1px solid #EEEEEE;
+    background: #FFFFFF;
+    border-top-color:transparent;
+}
+.collection{
+    padding-top:94px;
+    padding-bottom:94px;
+}
+.img-collection{
+    display:block;
 }
