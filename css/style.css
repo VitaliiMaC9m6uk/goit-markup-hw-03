@@ -63,7 +63,9 @@ address{
     line-height: 1.19;
     letter-spacing: 0.03em;
     
-    margin-right:93px
+    margin-right:93px;
+    padding-top:24px;
+    padding-bottom:25px;
 }
 .logo-blue{
     color:var(--logo-blue-color) ;
@@ -74,7 +76,6 @@ address{
 .site-nav .link-head:not(:last-child){
     margin-right: 50px;
 }
-
 .mail-link,
 .tel-link,
 .site-nav .link {
@@ -82,6 +83,10 @@ address{
     font-weight: 500;   
     line-height: 1.14;
     letter-spacing: 0.02em;
+
+    display:block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .site-nav .link {
     color: var(--title-color);    
@@ -101,16 +106,11 @@ address{
 }
 .container-head{
     display: flex;
-    justify-content: space-between;
-
-    
+    justify-content: space-between;    
 }
 .border-head{
-    background-color: var(--white-color);
+    background-color: var(--white-color);    
     border-bottom: 1px solid #ECECEC;
-
-    padding-top: 24px;
-    padding-bottom: 25px;
 }
 
 
@@ -200,11 +200,11 @@ address{
 }
 .team{
     background-color:#F5F4FA ;
+    padding-top: 94px;
 }
 .work,
 .team{
-    padding-bottom: 94px;
-    padding-top: 94px;
+    padding-bottom: 94px;    
 }
 .title-name{
     color: var(--title-color);
@@ -278,7 +278,7 @@ address{
     margin-right:8px;
 }
 .btn-port{  
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 
     display: flex;
     justify-content: center;
