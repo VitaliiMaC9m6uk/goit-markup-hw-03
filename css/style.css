@@ -55,17 +55,19 @@ address{
     margin: -1px;
 }
 /* Шапка */
-.logo{
+.logo,
+.logo-footer{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
-    
-    margin-right:93px;
-    padding-top:24px;
-    padding-bottom:25px;
+    letter-spacing: 0.03em;    
+}
+.logo{
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 .logo-blue{
     color:var(--logo-blue-color) ;
